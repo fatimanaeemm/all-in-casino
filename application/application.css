@@ -1,0 +1,169 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-image: url("/images/bgimg.jpeg");
+	-fx-background-size: 100% 100%;
+}
+
+.pane2{
+	-fx-background-color:black;
+}
+
+.Bbet{
+	-fx-text-fill:white;
+}
+
+.Ffinal{
+	-fx-text-fill:white;
+}
+
+
+
+.sevenf{-fx-background-image: url("/images/seven.PNG");
+		-fx-background-size: 100% 100%;
+}
+.sevenf:hover{
+	-fx-background-image: url("/images/sevenactive.PNG");
+		-fx-background-size: 100% 100%;
+}
+.hardFour{-fx-background-image: url("/images/two.PNG");
+		-fx-background-size:cover;}
+		
+.hardFour:hover{-fx-background-image: url("/images/twoactive.PNG");
+		-fx-background-size:cover;}
+		
+.hardTen{-fx-background-image: url("/images/three.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.hardTen:hover{-fx-background-image: url("/images/threeactive.PNG");
+		-fx-background-size:cover;}
+		
+.hardSix{-fx-background-image: url("/images/four.PNG");
+		-fx-background-size:cover;}
+		
+.hardSix:hover{-fx-background-image: url("/images/fouractive.PNG");
+		-fx-background-size:cover;}
+
+.hardEight{-fx-background-image: url("/images/five.PNG");
+		-fx-background-size:cover;}
+		
+.hardEight:hover{-fx-background-image: url("/images/fiveactive.PNG");
+		-fx-background-size:cover;}
+		
+.sumThree{-fx-background-image: url("/images/six.PNG");
+		-fx-background-size:cover;}
+		
+.sumThree:hover{-fx-background-image: url("/images/sixactive.PNG");
+		-fx-background-size:cover;}
+		
+.sumEleven{-fx-background-image: url("/images/nseven.PNG");
+		-fx-background-size:cover;}
+		
+.sumEleven:hover{-fx-background-image: url("/images/nsevenactive.PNG");
+		-fx-background-size:cover;}
+		
+.sumTwo{-fx-background-image: url("/images/eight.PNG");
+		-fx-background-size:cover;}
+		
+.sumTwo:hover{-fx-background-image: url("/images/eightactive.PNG");
+			-fx-background-size:cover;}
+		
+.sumTwelve{-fx-background-image: url("/images/nine.PNG");
+		-fx-background-size:cover;}
+		
+.sumTwelve:hover{-fx-background-image: url("/images/nineactive.PNG");
+		-fx-background-size:cover;}
+		
+.bigSix{-fx-background-color:#00994C;
+	-fx-text-fill: white;
+	-fx-border-color:white;
+	-fx-border-width:2px;
+}
+
+.bigSix:hover{-fx-background-color:#00CC00;
+	-fx-text-fill: white;
+	-fx-border-color:white;
+	-fx-border-width:2px;
+}
+
+.bigEight{-fx-background-color:#00994C;
+		-fx-text-fill:white;
+		-fx-border-color:white;
+		-fx-border-width:2px;
+}
+
+.bigEight:hover{-fx-background-color:#00CC00;
+		-fx-text-fill:white;
+		-fx-border-color:white;
+		-fx-border-width:2px;
+}
+
+.throwButton{
+	-fx-background-color:gold;
+}
+	
+.field{-fx-background-image: url("/images/ten.PNG");
+		-fx-background-size:100% 100%;}	
+
+.field:hover{-fx-background-image: url("/images/tenactive.PNG");
+		-fx-background-size:100% 100%;}	
+
+.twelve{-fx-background-image: url("/images/twelve.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.twelve:hover{-fx-background-image: url("/images/twelveactive.PNG");
+		-fx-background-size: 100% 100%;}	
+
+.eleven{-fx-background-image: url("/images/eleven.PNG");
+		-fx-background-size: 100% 100%;}	
+		
+.eleven:hover{-fx-background-image: url("/images/elevenactive.PNG");
+		-fx-background-size: 100% 100%;}		
+
+.dpasso{-fx-background-color:#00994C;
+		-fx-text-fill:white;
+		-fx-border-color:white;
+		-fx-border-width:2px;
+}
+
+.passo{-fx-background-color:#00994C;
+		-fx-text-fill:white;
+		-fx-border-color:white;
+		-fx-border-width:2px;
+}
+
+.four{-fx-background-image: url("/images/thirteen.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.four:hover{-fx-background-image: url("/images/thirteenactive.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.five{-fx-background-image: url("/images/fourteen.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.five:hover{-fx-background-image: url("/images/fourteenactive.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.six{-fx-background-image: url("/images/fifteen.PNG");
+		-fx-background-size: 100% 100%;}
+
+.six:hover{-fx-background-image: url("/images/fifteenactive.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.eight{-fx-background-image: url("/images/sixteen.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.eight:hover{-fx-background-image: url("/images/sixteenactive.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.nine{-fx-background-image: url("/images/seventeen.PNG");
+		-fx-background-size: 100% 100%;}
+
+.nine:hover{-fx-background-image: url("/images/seventeenactive.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.ten{-fx-background-image: url("/images/eighteen.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.ten:hover{-fx-background-image: url("/images/eighteenactive.PNG");
+		-fx-background-size: 100% 100%;}
+		

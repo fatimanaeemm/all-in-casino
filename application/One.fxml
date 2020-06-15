@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1500.0" prefHeight="600.0" prefWidth="1500.0" styleClass="root" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OneController">
+   <children>
+      <Button fx:id="passLine" layoutX="242.0" layoutY="357.0" mnemonicParsing="false" onAction="#pass" prefHeight="58.6" prefWidth="571.0" scaleX="1.1" scaleY="1.1" styleClass="twelve" stylesheets="@application.css" />
+      <Button fx:id="passo" layoutX="241.0" layoutY="420.0" maxHeight="25.0" mnemonicParsing="false" onAction="#passOdds" prefHeight="25.0" prefWidth="571.0" scaleX="1.1" scaleY="1.1" styleClass="passo" stylesheets="@application.css" text="Pass Odds" />
+      <Button fx:id="dPassLine" layoutX="241.0" layoutY="262.0" mnemonicParsing="false" onAction="#dontPass" prefHeight="58.6" prefWidth="571.0" scaleX="1.1" scaleY="1.1" styleClass="eleven" stylesheets="@application.css" />
+      <Button fx:id="dpasso" layoutX="242.0" layoutY="325.0" maxHeight="25.0" mnemonicParsing="false" onAction="#dontPassOdds" prefHeight="67.5" prefWidth="571.0" scaleX="1.1" scaleY="1.1" styleClass="dpasso" stylesheets="@application.css" text="Don't Pass Odds" />
+      <Button fx:id="four" layoutX="216.0" layoutY="41.0" maxHeight="77.0" maxWidth="95.0" mnemonicParsing="false" onAction="#placeFour" prefHeight="77.0" prefWidth="95.0" scaleX="1.1" scaleY="1.1" styleClass="four" stylesheets="@application.css" />
+      <Button fx:id="five" layoutX="321.0" layoutY="41.0" maxHeight="77.0" maxWidth="95.0" mnemonicParsing="false" onAction="#placeFive" prefHeight="77.0" prefWidth="95.0" scaleX="1.1" scaleY="1.1" styleClass="five" stylesheets="@application.css" />
+      <Button fx:id="six" layoutX="426.0" layoutY="41.0" mnemonicParsing="false" onAction="#placeSix" prefHeight="77.0" prefWidth="95.0" scaleX="1.1" scaleY="1.1" styleClass="six" stylesheets="@application.css" />
+      <Button fx:id="eight" layoutX="531.0" layoutY="41.0" mnemonicParsing="false" onAction="#placeEight" prefHeight="77.0" prefWidth="95.0" scaleX="1.1" scaleY="1.1" styleClass="eight" stylesheets="@application.css" />
+      <Button fx:id="nine" layoutX="636.0" layoutY="41.0" mnemonicParsing="false" onAction="#placeNine" prefHeight="77.0" prefWidth="95.0" scaleX="1.1" scaleY="1.1" styleClass="nine" stylesheets="@application.css" />
+      <Button fx:id="ten" layoutX="741.0" layoutY="41.0" mnemonicParsing="false" onAction="#placeTen" prefHeight="77.0" prefWidth="95.0" scaleX="1.1" scaleY="1.1" styleClass="ten" stylesheets="@application.css" />
+      <Button fx:id="sevenf" layoutX="854.0" layoutY="42.0" maxHeight="91.8" maxWidth="454.4" mnemonicParsing="false" onAction="#seven" prefHeight="76.0" prefWidth="252.0" scaleX="1.1" scaleY="1.1" styleClass="sevenf" stylesheets="@application.css" />
+      
+      <Button fx:id="hardFour1" layoutX="845.0" layoutY="124.0" mnemonicParsing="false" onAction="#hardFour" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="hardFour" stylesheets="@application.css" />
+      <Button fx:id="hardTen1" layoutX="985.0" layoutY="124.0" mnemonicParsing="false" onAction="#hardTen" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="hardTen" stylesheets="@application.css" />
+      <Button fx:id="hardSix1" layoutX="845.0" layoutY="194.0" mnemonicParsing="false" onAction="#hardSix" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="hardSix" stylesheets="@application.css" />
+      <Button fx:id="hardEight1" layoutX="985.0" layoutY="194.0" mnemonicParsing="false" onAction="#hardEight" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="hardEight" stylesheets="@application.css" />
+      <Button fx:id="sumThree1" layoutX="845.0" layoutY="264.0" mnemonicParsing="false" onAction="#sumThree" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="sumThree" stylesheets="@application.css" />
+      <Button fx:id="sumEleven1" layoutX="985.0" layoutY="264.0" mnemonicParsing="false" onAction="#sumEleven" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="sumEleven" stylesheets="@application.css" />
+      <Button fx:id="sumTwo1" layoutX="845.0" layoutY="336.0" mnemonicParsing="false" onAction="#sumTwo" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="sumTwo" stylesheets="@application.css" />
+      <Button fx:id="sumTwelve1" layoutX="985.0" layoutY="336.0" mnemonicParsing="false" onAction="#sumTwelve" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="sumTwelve" stylesheets="@application.css" />
+      <Button fx:id="bigSix1" layoutX="845.0" layoutY="410.0" mnemonicParsing="false" onAction="#bigSix" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="bigSix" stylesheets="@application.css" text="Big 6" />
+      <Button fx:id="bigEight1" layoutX="985.0" layoutY="410.0" mnemonicParsing="false" onAction="#bigEight" prefHeight="65.0" prefWidth="127.0" scaleX="1.1" scaleY="1.1" styleClass="bigEight" stylesheets="@application.css" text="Big 8" />
+      <Button fx:id="throwButton" layoutX="292.0" layoutY="461.0" mnemonicParsing="false" onAction="#throwDice" prefHeight="46.0" prefWidth="104.0" styleClass="throwButton" stylesheets="@application.css" text="throw" />
+      <Button fx:id="field" layoutX="242.0" layoutY="125.0" mnemonicParsing="false" onAction="#field" prefHeight="128.3" prefWidth="571.0" scaleX="1.1" scaleY="1.1" styleClass="field" stylesheets="@application.css" textFill="#f20a10">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="dice1" layoutX="684.0" layoutY="461.0" prefHeight="65.0" prefWidth="78.0" />
+      <Label fx:id="dice2" layoutX="569.0" layoutY="461.0" prefHeight="65.0" prefWidth="78.0" />
+      <Pane fx:id="pane2" layoutY="535.0" prefHeight="65.0" prefWidth="1500.0" styleClass="pane2" stylesheets="@../../../P1/src/application/application.css">
+         <children>
+            <Label fx:id="Bbet" layoutX="34.0" layoutY="22.0" prefHeight="34.0" prefWidth="131.0" styleClass="Bbet" stylesheets="@../../../P1/src/application/application.css" text="bet: $0" />
+            <Label fx:id="Ffinal" layoutX="1104.0" layoutY="27.0" prefHeight="25.0" prefWidth="131.0" styleClass="Ffinal" stylesheets="@../../../P1/src/application/application.css" />
+            <Label fx:id="winnings" layoutX="527.0" layoutY="16.0" prefHeight="34.0" prefWidth="369.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="returnToMainButton" layoutX="25.0" layoutY="461.0" mnemonicParsing="false" onAction="#returnToMain" prefHeight="46.0" prefWidth="157.0" text="Main Menu" />
+   </children>
+</AnchorPane>

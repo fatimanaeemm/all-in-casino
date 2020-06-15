@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BlackjackGUIController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1500.0">
+         <image>
+            <Image url="@../images/blackBg.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="600.0" layoutX="1001.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="352.0" />
+      <Button fx:id="hitButton" alignment="CENTER" disable="true" layoutX="1071.0" layoutY="152.0" mnemonicParsing="false" onAction="#hitPlayer" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Hit" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="standButton" alignment="CENTER" disable="true" layoutX="1071.0" layoutY="241.0" mnemonicParsing="false" onAction="#standPlayer" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Stand" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="splitButton" alignment="CENTER" disable="true" layoutX="1071.0" layoutY="332.0" mnemonicParsing="false" onAction="#split" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Split" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Button>
+      <Label fx:id="playerSumLabel" alignment="CENTER" layoutX="595.0" layoutY="328.0" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: #d3d004; -fx-border-color: white;" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="5.0" offsetY="5.0" />
+         </effect></Label>
+      <Label fx:id="dealerSumLabel" alignment="CENTER" layoutX="595.0" layoutY="194.0" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: #d3d004; -fx-border-color: white;" textFill="WHITE">
+         <effect>
+            <DropShadow offsetX="5.0" offsetY="5.0" />
+         </effect>
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label fx:id="winOrLose" alignment="CENTER" layoutX="802.0" layoutY="254.0" prefHeight="42.0" prefWidth="199.0" textFill="#e2e300">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Onyx" size="51.0" />
+         </font></Label>
+      <Label fx:id="bustOrBlackjack" alignment="CENTER" layoutX="334.0" layoutY="255.0" prefHeight="42.0" prefWidth="199.0" textFill="#e2e300">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Onyx" size="51.0" />
+         </font></Label>
+      <Label fx:id="currAmountLabel" alignment="CENTER" layoutX="104.0" layoutY="266.0" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #172361; -fx-background-image: dealButton.png; -fx-border-color: white;" text="Current Amount" textFill="#dadada">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="5.0" offsetY="5.0" />
+         </effect></Label>
+      <Label fx:id="pC1" alignment="CENTER" layoutX="495.0" layoutY="419.0" prefHeight="150.0" prefWidth="120.0" rotate="-21.8" />
+      <Label fx:id="pC2" layoutX="555.0" layoutY="399.0" prefHeight="150.0" prefWidth="120.0" rotate="-15.0" />
+      <Label fx:id="pC3" layoutX="623.0" layoutY="389.0" prefHeight="150.0" prefWidth="120.0" />
+      <Label fx:id="pC4" layoutX="691.0" layoutY="399.0" prefHeight="150.0" prefWidth="120.0" rotate="15.0" />
+      <Label fx:id="pC5" layoutX="751.0" layoutY="419.0" prefHeight="150.0" prefWidth="120.0" rotate="21.8" />
+      <Button fx:id="continueSplit" alignment="CENTER" disable="true" layoutX="1234.0" layoutY="510.0" mnemonicParsing="false" onAction="#continueSplit" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Continue" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="doubleButton" alignment="CENTER" disable="true" layoutX="1071.0" layoutY="422.0" mnemonicParsing="false" onAction="#doublePlayer" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Double" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="dealButton" alignment="CENTER" contentDisplay="CENTER" layoutX="577.0" layoutY="258.0" mnemonicParsing="false" onAction="#deal" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #890000; -fx-border-color: white;" text="Deal" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Button>
+      <Label fx:id="dC1" alignment="CENTER" layoutX="492.0" layoutY="48.0" prefHeight="150.0" prefWidth="120.0" rotate="-21.8" />
+      <Label fx:id="dC2" layoutX="552.0" layoutY="28.0" prefHeight="150.0" prefWidth="120.0" rotate="-15.0" />
+      <Label fx:id="dC3" layoutX="620.0" layoutY="18.0" prefHeight="150.0" prefWidth="120.0" />
+      <Label fx:id="dC4" layoutX="688.0" layoutY="28.0" prefHeight="150.0" prefWidth="120.0" rotate="15.0" />
+      <Label fx:id="dC5" layoutX="748.0" layoutY="48.0" prefHeight="150.0" prefWidth="120.0" rotate="21.8" />
+      <Button fx:id="playAgainButton" disable="true" layoutX="107.0" layoutY="432.0" mnemonicParsing="false" onAction="#playAgain" prefHeight="50.0" prefWidth="173.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Play Again" textFill="WHITE" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="returnToMainButton" disable="true" layoutX="107.0" layoutY="498.0" mnemonicParsing="false" onAction="#returnToMain" prefHeight="50.0" prefWidth="173.0" style="-fx-background-color: #5a5a5a; -fx-border-color: white;" text="Return To Main" textFill="WHITE" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="displayRulesButton" layoutX="107.0" layoutY="349.0" mnemonicParsing="false" onAction="#displayRules" prefHeight="58.0" prefWidth="62.0" style="-fx-background-color: #0077b7; -fx-border-color: white;" text="Rules" textFill="WHITE" />
+      <ImageView blendMode="SCREEN" fitHeight="150.0" fitWidth="200.0" layoutX="1061.0" layoutY="2.0">
+         <image>
+            <Image url="@../images/blackjackLogo2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

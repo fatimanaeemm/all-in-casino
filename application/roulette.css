@@ -1,0 +1,539 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root1{
+	-fx-background-image: url("/images/bgimg.jpeg");
+	-fx-background-size: 100% 100%;
+}
+
+.newr{
+	-fx-background-image: url("/images/bgim2.jpeg");
+	-fx-background-color:#00994C;
+}
+
+.pane2{
+	-fx-background-color:black;
+}
+
+.label2{-fx-background-image: url("/images/rouletteimg.PNG");
+		-fx-background-size: 100% 100%;}
+		
+.but1{
+	/*-fx-background-image: url("/application/blankwheel.png");*/
+	-fx-background-size: 100% 100%;
+	-fx-background-color:#00994C;
+	-fx-border-color:#00994C;
+}
+
+.but1:hover{
+	-fx-border-color:#00994C !important;
+}
+.button:hover{
+	-fx-text-fill:gray;
+	-fx-border-color:gray;
+}
+
+
+
+
+
+.one1{
+	-fx-background-color:#CC0000;
+	-fx-font-weight: bold;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.two{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.three{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.four{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.five{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.six{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.seven{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+.eight{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.nine{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:19px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.ten1{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.eleven{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twelve{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirteen{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.fourteen{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.fifteen{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.sixteen{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.seventeen{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.eighteen{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.nineteen{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twenty{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyOne{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyTwo{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyThree{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyFour{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyFive{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentySix{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentySeven{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyEight{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.twentyNine{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirty{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirtyOne{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirtyTwo{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirtyThree{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirtyFour{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirtyFive{
+	-fx-background-color:black;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.thirtySix{
+	-fx-background-color:#CC0000;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:15px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+
+
+.first1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:20px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.first1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.second1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:20px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.second1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.third1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:20px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.third1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.column1s{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.column1s:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.column2s{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.column2s:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.column3s{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.column3s:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.red1{
+	-fx-background-color:#CC0000;
+}
+.red1:hover{
+	-fx-border-color:gray;
+}
+
+.black1{
+	-fx-background-color:black;
+}
+.black1:hover{
+	-fx-border-color:gray;
+}
+
+.firstHalf1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.firstHalf1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.secondHalf1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.secondHalf1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.even1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.even1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+.odd1{
+	-fx-background-color:#00994C;
+	-fx-text-fill:white;
+	-fx-font-weight: bold;
+	-fx-font-size:13px;
+	-fx-border-width:1px;
+	-fx-border-color:white;
+}
+.odd1:hover{
+	-fx-text-fill:black;
+	-fx-background-color:gray;
+}
+
+

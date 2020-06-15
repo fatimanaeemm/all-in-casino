@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="wheel" prefHeight="600.0" prefWidth="1500.0" styleClass="root1" stylesheets="@roulette.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RoulettefxmlController">
+   <children>
+      <Button fx:id="three" layoutX="239.0" layoutY="123.0" mnemonicParsing="false" onAction="#methodThree" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="three" stylesheets="@roulette.css" text="3" />
+      <Button fx:id="six" layoutX="299.0" layoutY="123.0" mnemonicParsing="false" onAction="#methodSix" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="six" stylesheets="@roulette.css" text="6" />
+      <Button fx:id="nine" layoutX="359.0" layoutY="123.0" mnemonicParsing="false" onAction="#methodNine" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="nine" stylesheets="@roulette.css" text="9" />
+      <Button fx:id="twelve" layoutX="419.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodTwelve" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twelve" stylesheets="@roulette.css" text="12" />
+      <Button fx:id="fifteen" layoutX="479.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodFifteen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="fifteen" stylesheets="@roulette.css" text="15" />
+      <Button fx:id="eighteen" layoutX="539.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodEighteen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="eighteen" stylesheets="@roulette.css" text="18" />
+      <Button fx:id="twentyOne" layoutX="599.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodTwentyOne" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyOne" stylesheets="@roulette.css" text="21" />
+      <Button fx:id="twentyFour" layoutX="659.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodTwentyFour" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyFour" stylesheets="@roulette.css" text="24" />
+      <Button fx:id="twentySeven" layoutX="719.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodTwentySeven" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentySeven" stylesheets="@roulette.css" text="27" />
+      <Button fx:id="thirty" layoutX="779.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodThirty" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirty" stylesheets="@roulette.css" text="30" />
+      <Button fx:id="thirtyThree" layoutX="839.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodThirtyThree" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirtyThree" stylesheets="@roulette.css" text="33" />
+      <Button fx:id="thirtySix" layoutX="899.0" layoutY="122.0" mnemonicParsing="false" onAction="#methodThirtySix" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirtySix" stylesheets="@roulette.css" text="36" />
+      <Button fx:id="two" layoutX="239.0" layoutY="186.0" mnemonicParsing="false" onAction="#methodTwo" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="two" stylesheets="@roulette.css" text="2" textFill="WHITE" />
+      <Button fx:id="five" layoutX="299.0" layoutY="186.0" mnemonicParsing="false" onAction="#methodFive" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="five" stylesheets="@roulette.css" text="5" />
+      <Button fx:id="eight" layoutX="359.0" layoutY="186.0" mnemonicParsing="false" onAction="#methodEight" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="eight" stylesheets="@roulette.css" text="8" />
+      <Button fx:id="eleven" layoutX="479.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodEleven" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="eleven" stylesheets="@roulette.css" text="11" />
+      <Button fx:id="fourteen" layoutX="419.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodFourteen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="fourteen" stylesheets="@roulette.css" text="14" />
+      <Button fx:id="seventeen" layoutX="539.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodSeventeen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="seventeen" stylesheets="@roulette.css" text="17" />
+      <Button fx:id="twenty" layoutX="599.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodTwenty" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twenty" stylesheets="@roulette.css" text="20" />
+      <Button fx:id="twentyThree" layoutX="659.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodTwentyThree" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyThree" stylesheets="@roulette.css" text="23" />
+      <Button fx:id="twentySix" layoutX="719.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodTwentySix" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentySix" stylesheets="@roulette.css" text="26" />
+      <Button fx:id="twentyNine" layoutX="779.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodTwentyNine" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyNine" stylesheets="@roulette.css" text="29" />
+      <Button fx:id="thirtyTwo" layoutX="839.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodThirtyTwo" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirtyTwo" stylesheets="@roulette.css" text="32" />
+      <Button fx:id="thirtyFive" layoutX="899.0" layoutY="188.0" mnemonicParsing="false" onAction="#methodThirtyFive" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirtyFive" stylesheets="@roulette.css" text="35" />
+      <Button fx:id="one1" layoutX="239.0" layoutY="252.0" mnemonicParsing="false" onAction="#methodOne" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="one1" stylesheets="@roulette.css" text="1" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="four" layoutX="299.0" layoutY="253.0" mnemonicParsing="false" onAction="#methodFour" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="four" stylesheets="@roulette.css" text="4" />
+      <Button fx:id="seven" layoutX="359.0" layoutY="252.0" mnemonicParsing="false" onAction="#methodSeven" prefHeight="40.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="seven" stylesheets="@roulette.css" text="7" />
+      <Button fx:id="ten" layoutX="419.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodTen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="ten1" stylesheets="@roulette.css" text="10" />
+      <Button fx:id="thirteen" layoutX="479.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodThirteen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirteen" stylesheets="@roulette.css" text="13" />
+      <Button fx:id="sixteen" layoutX="539.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodSixteen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="sixteen" stylesheets="@roulette.css" text="16" />
+      <Button fx:id="nineteen" layoutX="599.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodNineteen" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="nineteen" stylesheets="@roulette.css" text="19" />
+      <Button fx:id="twentyTwo" layoutX="659.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodTwentyTwo" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyTwo" stylesheets="@roulette.css" text="22" />
+      <Button fx:id="twentyFive" layoutX="719.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodTwentyFive" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyFive" stylesheets="@roulette.css" text="25" />
+      <Button fx:id="twentyEight" layoutX="779.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodTwentyEight" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="twentyEight" stylesheets="@roulette.css" text="28" />
+      <Button fx:id="thirtyOne" layoutX="839.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodThirtyOne" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirtyOne" stylesheets="@roulette.css" text="31" />
+      <Button fx:id="thirtyFour" layoutX="899.0" layoutY="254.0" mnemonicParsing="false" onAction="#methodThirtyFour" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="thirtyFour" stylesheets="@roulette.css" text="34" />
+      <Button fx:id="first1" layoutX="269.0" layoutY="321.0" mnemonicParsing="false" onAction="#first" prefHeight="40.0" prefWidth="160.0" scaleX="1.5" scaleY="1.5" styleClass="first1" stylesheets="@roulette.css" text="1st 12" />
+      <Button fx:id="second1" layoutX="509.0" layoutY="321.0" mnemonicParsing="false" onAction="#second" prefHeight="40.0" prefWidth="160.0" scaleX="1.5" scaleY="1.5" styleClass="second1" stylesheets="@roulette.css" text="2nd 12" />
+      <Button fx:id="third1" layoutX="749.0" layoutY="321.0" mnemonicParsing="false" onAction="#thirdm" prefHeight="40.0" prefWidth="160.0" scaleX="1.5" scaleY="1.5" styleClass="third1" stylesheets="@roulette.css" text="3rd 12" />
+      <Button fx:id="firstHalf1" layoutX="249.0" layoutY="389.0" mnemonicParsing="false" onAction="#firstHalf" prefHeight="40.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" styleClass="firstHalf1" stylesheets="@roulette.css" text="1-18" />
+      <Button fx:id="even1" layoutX="369.0" layoutY="389.0" mnemonicParsing="false" onAction="#even" prefHeight="40.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" styleClass="even1" stylesheets="@roulette.css" text="Even" />
+      <Button fx:id="red1" layoutX="489.0" layoutY="389.0" mnemonicParsing="false" onAction="#red" prefHeight="40.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" styleClass="red1" stylesheets="@roulette.css" />
+      <Button fx:id="black1" layoutX="609.0" layoutY="389.0" mnemonicParsing="false" onAction="#black" prefHeight="40.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" styleClass="black1" stylesheets="@roulette.css" />
+      <Button fx:id="odd1" layoutX="729.0" layoutY="389.0" mnemonicParsing="false" onAction="#odd" prefHeight="40.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" styleClass="odd1" stylesheets="@roulette.css" text="Odd" />
+      <Button fx:id="secondHalf1" layoutX="849.0" layoutY="389.0" mnemonicParsing="false" onAction="#secondHalf" prefHeight="40.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" styleClass="secondHalf1" stylesheets="@roulette.css" text="19-36" />
+      <Button fx:id="column1s" layoutX="959.0" layoutY="122.0" mnemonicParsing="false" onAction="#column1" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="column1s" stylesheets="@roulette.css" text="2:1" />
+      <Button fx:id="column2s" layoutX="959.0" layoutY="188.0" mnemonicParsing="false" onAction="#column2" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="column2s" stylesheets="@roulette.css" text="2:1" />
+      <Button fx:id="column3s" layoutX="959.0" layoutY="254.0" mnemonicParsing="false" onAction="#column3" prefHeight="44.0" prefWidth="40.0" scaleX="1.5" scaleY="1.5" styleClass="column3s" stylesheets="@roulette.css" text="2:1" />
+      <Button fx:id="spin" layoutX="563.0" layoutY="479.0" mnemonicParsing="false" onAction="#spin" prefHeight="40.0" prefWidth="52.0" scaleX="1.5" scaleY="1.5" text="spin" />
+      <Label fx:id="label2" prefHeight="76.0" prefWidth="1313.0" styleClass="label2" stylesheets="@roulette.css" />
+      <Pane fx:id="pane2" layoutY="538.0" prefHeight="65.0" prefWidth="1500.0" styleClass="pane2" stylesheets="@../../../CrapsGUI/src/application/application.css">
+         <children>
+            <Label fx:id="Bbet" layoutX="14.0" layoutY="8.0" prefHeight="40.0" prefWidth="102.0" text="bet: $" textFill="WHITE" />
+            <Label fx:id="total" layoutX="1161.0" layoutY="13.0" prefHeight="40.0" prefWidth="102.0" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Button fx:id="returnToMainButton" layoutX="1007.0" layoutY="487.0" mnemonicParsing="false" onAction="#returnToMain" prefHeight="40.0" prefWidth="160.0" text="Return to Main Menu" />
+   </children>
+</AnchorPane>

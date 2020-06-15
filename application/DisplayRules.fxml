@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DisplayRulesController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1500.0">
+         <image>
+            <Image url="@../images/blackBg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="SCREEN" fitHeight="237.0" fitWidth="322.0" layoutX="589.0" layoutY="-29.0">
+         <image>
+            <Image url="@../images/slotsLogo.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="rulesLabel" alignment="CENTER" layoutX="301.0" layoutY="173.0" prefHeight="394.0" prefWidth="898.0" style="-fx-background-color: #2e2e2e; -fx-border-color: #0079ed; -fx-border-width: 5;" textFill="#e300b7">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button fx:id="returnButton" layoutX="64.0" layoutY="517.0" mnemonicParsing="false" onAction="#returnToGame" prefHeight="50.0" prefWidth="168.0" style="-fx-background-color: #e8db06; -fx-border-color: white;" text="Return" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
